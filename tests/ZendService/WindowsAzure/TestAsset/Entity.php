@@ -19,11 +19,12 @@
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
  */
 
-namespace ZendTest\Service\WindowsAzure;
+namespace ZendTest\Service\WindowsAzure\TestAsset;
 
-use Zend\Service\WindowsAzure\Storage\Storage;
+use Zend\Service\WindowsAzure\Storage\TableEntity;
 
 /**
+ * Test entity
  * @category   Zend
  * @package    Zend_Service_WindowsAzure
  * @subpackage UnitTests
@@ -32,23 +33,20 @@ use Zend\Service\WindowsAzure\Storage\Storage;
  * @copyright  Copyright (c) 2005-2012 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
  */
-class StorageTest extends \PHPUnit_Framework_TestCase
+class Entity extends TableEntity
 {
     /**
-     * Test constructor for devstore
+     * @azure Name
      */
-    public function testConstructorForDevstore()
-    {
-        $storage = new Storage();
-        $this->assertEquals('http://127.0.0.1:10000/devstoreaccount1', $storage->getBaseUrl());
-    }
+    public $FullName;
 
     /**
-     * Test constructor for production
+     * @azure Age Edm.Int64
      */
-    public function testConstructorForProduction()
-    {
-        $storage = new Storage(Storage::URL_CLOUD_BLOB, 'testing', '');
-        $this->assertEquals('http://testing.blob.core.windows.net', $storage->getBaseUrl());
-    }
+    public $Age;
+
+    /**
+     * @azure Visible Edm.Boolean
+     */
+    public $Visible = false;
 }
