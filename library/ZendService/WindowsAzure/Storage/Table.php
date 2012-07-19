@@ -8,14 +8,14 @@
  * @package   Zend_Service
  */
 
-namespace Zend\Service\WindowsAzure\Storage;
+namespace ZendService\WindowsAzure\Storage;
 
 use Zend\Http\Request;
 use Zend\Http\Response;
-use Zend\Service\WindowsAzure\Credentials;
-use Zend\Service\WindowsAzure\Exception\InvalidArgumentException;
-use Zend\Service\WindowsAzure\Exception\RuntimeException;
-use Zend\Service\WindowsAzure\RetryPolicy;
+use ZendService\WindowsAzure\Credentials;
+use ZendService\WindowsAzure\Exception\InvalidArgumentException;
+use ZendService\WindowsAzure\Exception\RuntimeException;
+use ZendService\WindowsAzure\RetryPolicy;
 
 /**
  * @category   Zend
@@ -646,7 +646,7 @@ class Table extends AbstractBatchStorage
      * @param boolean      $verifyEtag  Verify etag of the entity (used for concurrency)
      * @throws RuntimeException
      * @throws InvalidArgumentException
-     * @return null|\Zend\Service\WindowsAzure\Storage\TableEntity
+     * @return null|\ZendService\WindowsAzure\Storage\TableEntity
      */
     protected function _changeEntity($httpVerb = Request::METHOD_PUT, $tableName, TableEntity $entity,
                                      $verifyEtag = false)

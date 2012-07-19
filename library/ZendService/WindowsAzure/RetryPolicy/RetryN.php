@@ -8,7 +8,7 @@
  * @package   Zend_Service
  */
 
-namespace Zend\Service\WindowsAzure\RetryPolicy;
+namespace ZendService\WindowsAzure\RetryPolicy;
 
 /**
  * @category   Zend

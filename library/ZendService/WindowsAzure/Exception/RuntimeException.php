@@ -8,7 +8,7 @@
  * @package   Zend_Service
  */
 
-namespace Zend\Service\WindowsAzure\Exception;
+namespace ZendService\WindowsAzure\Exception;
 
 /**
  * @category   Zend

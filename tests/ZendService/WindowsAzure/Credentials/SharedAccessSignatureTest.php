@@ -8,10 +8,10 @@
  * @package   Zend_Service
  */
 
-namespace ZendTest\Service\WindowsAzure\Credentials;
+namespace ZendServiceTest\WindowsAzure\Credentials;
 
-use Zend\Service\WindowsAzure\Credentials\SharedAccessSignature;
-use Zend\Service\WindowsAzure\Storage\Storage;
+use ZendService\WindowsAzure\Credentials\SharedAccessSignature;
+use ZendService\WindowsAzure\Storage\Storage;
 
 /**
  * @category   Zend

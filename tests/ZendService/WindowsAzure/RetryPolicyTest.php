@@ -8,9 +8,9 @@
  * @package   Zend_Service
  */
 
-namespace ZendTest\Service\WindowsAzure;
+namespace ZendServiceTest\WindowsAzure;
 
-use Zend\Service\WindowsAzure\RetryPolicy\AbstractRetryPolicy;
+use ZendService\WindowsAzure\RetryPolicy\AbstractRetryPolicy;
 
 /**
  * @category   Zend

@@ -8,15 +8,15 @@
  * @package   Zend_Service
  */
 
-namespace Zend\Service\WindowsAzure\Storage;
+namespace ZendService\WindowsAzure\Storage;
 
 use Zend\Http\Request;
 use Zend\Http\Response;
-use Zend\Service\WindowsAzure\Credentials;
-use Zend\Service\WindowsAzure\Exception\DomainException;
-use Zend\Service\WindowsAzure\Exception\InvalidArgumentException;
-use Zend\Service\WindowsAzure\Exception\RuntimeException;
-use Zend\Service\WindowsAzure\RetryPolicy;
+use ZendService\WindowsAzure\Credentials;
+use ZendService\WindowsAzure\Exception\DomainException;
+use ZendService\WindowsAzure\Exception\InvalidArgumentException;
+use ZendService\WindowsAzure\Exception\RuntimeException;
+use ZendService\WindowsAzure\RetryPolicy;
 
 /**
  * @category   Zend

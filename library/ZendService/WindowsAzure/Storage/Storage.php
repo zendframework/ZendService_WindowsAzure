@@ -8,14 +8,14 @@
  * @package   Zend_Service
  */
 
-namespace Zend\Service\WindowsAzure\Storage;
+namespace ZendService\WindowsAzure\Storage;
 
 use Zend\Http\Client;
 use Zend\Http\Request;
 use Zend\Http\Response;
-use Zend\Service\WindowsAzure\Credentials;
-use Zend\Service\WindowsAzure\Exception\DomainException;
-use Zend\Service\WindowsAzure\RetryPolicy;
+use ZendService\WindowsAzure\Credentials;
+use ZendService\WindowsAzure\Exception\DomainException;
+use ZendService\WindowsAzure\RetryPolicy;
 use Zend\Stdlib\ErrorHandler;
 
 /**

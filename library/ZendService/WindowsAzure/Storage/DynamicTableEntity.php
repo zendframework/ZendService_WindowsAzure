@@ -8,7 +8,7 @@
  * @package   Zend_Service
  */
 
-namespace Zend\Service\WindowsAzure\Storage;
+namespace ZendService\WindowsAzure\Storage;
 
 /**
  * @category   Zend
@@ -161,7 +161,7 @@ class DynamicTableEntity extends TableEntity
      *
      * @param array   $values
      * @param boolean $throwOnError Throw Zend_Service_WindowsAzure_Exception when a property is not specified in $values?
-     * @throws \Zend\Service\WindowsAzure\Exception\UnknownPropertyException
+     * @throws \ZendService\WindowsAzure\Exception\UnknownPropertyException
      */
     public function setAzureValues($values = array(), $throwOnError = false)
     {

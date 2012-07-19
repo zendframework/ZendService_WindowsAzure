@@ -8,11 +8,11 @@
  * @package   Zend_Service
  */
 
-namespace ZendTest\Service\WindowsAzure;
+namespace ZendServiceTest\WindowsAzure;
 
-use Zend\Service\WindowsAzure\RetryPolicy\AbstractRetryPolicy;
-use Zend\Service\WindowsAzure\Storage\DynamicTableEntity;
-use Zend\Service\WindowsAzure\Storage\Table;
+use ZendService\WindowsAzure\RetryPolicy\AbstractRetryPolicy;
+use ZendService\WindowsAzure\Storage\DynamicTableEntity;
+use ZendService\WindowsAzure\Storage\Table;
 
 /**
  * @category   Zend

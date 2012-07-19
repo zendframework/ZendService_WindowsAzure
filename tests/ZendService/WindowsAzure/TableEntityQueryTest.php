@@ -8,9 +8,9 @@
  * @package   Zend_Service
  */
 
-namespace ZendTest\Service\WindowsAzure;
+namespace ZendServiceTest\WindowsAzure;
 
-use Zend\Service\WindowsAzure\Storage\TableEntityQuery;
+use ZendService\WindowsAzure\Storage\TableEntityQuery;
 
 /**
  * @category   Zend

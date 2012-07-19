@@ -8,9 +8,9 @@
  * @package   Zend_Service
  */
 
-namespace ZendTest\Service\WindowsAzure\TestAsset;
+namespace ZendServiceTest\WindowsAzure\TestAsset;
 
-use Zend\Service\WindowsAzure\Storage\TableEntity;
+use ZendService\WindowsAzure\Storage\TableEntity;
 
 /**
  * Test entity

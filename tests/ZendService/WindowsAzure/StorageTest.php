@@ -8,9 +8,9 @@
  * @package   Zend_Service
  */
 
-namespace ZendTest\Service\WindowsAzure;
+namespace ZendServiceTest\WindowsAzure;
 
-use Zend\Service\WindowsAzure\Storage\Storage;
+use ZendService\WindowsAzure\Storage\Storage;
 
 /**
  * @category   Zend

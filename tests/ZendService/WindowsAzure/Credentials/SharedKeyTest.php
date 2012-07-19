@@ -8,9 +8,9 @@
  * @package   Zend_Service
  */
 
-namespace ZendTest\Service\WindowsAzure\Credentials;
+namespace ZendServiceTest\WindowsAzure\Credentials;
 
-use Zend\Service\WindowsAzure\Credentials\SharedKey;
+use ZendService\WindowsAzure\Credentials\SharedKey;
 
 /**
  * @category   Zend

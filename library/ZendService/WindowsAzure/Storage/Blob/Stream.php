@@ -8,11 +8,11 @@
  * @package   Zend_Service
  */
 
-namespace Zend\Service\WindowsAzure\Storage\Blob;
+namespace ZendService\WindowsAzure\Storage\Blob;
 
-use Zend\Service\WindowsAzure\Exception\DomainException;
-use Zend\Service\WindowsAzure\Exception\ExceptionInterface;
-use Zend\Service\WindowsAzure\Exception\RuntimeException;
+use ZendService\WindowsAzure\Exception\DomainException;
+use ZendService\WindowsAzure\Exception\ExceptionInterface;
+use ZendService\WindowsAzure\Exception\RuntimeException;
 use Zend\Stdlib\ErrorHandler;
 
 /**

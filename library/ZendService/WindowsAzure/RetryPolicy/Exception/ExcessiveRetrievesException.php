@@ -8,9 +8,9 @@
  * @package   Zend_Service
  */
 
-namespace Zend\Service\WindowsAzure\RetryPolicy\Exception;
+namespace ZendService\WindowsAzure\RetryPolicy\Exception;
 
-use Zend\Service\WindowsAzure\Exception;
+use ZendService\WindowsAzure\Exception;
 
 /**
  * @category   Zend

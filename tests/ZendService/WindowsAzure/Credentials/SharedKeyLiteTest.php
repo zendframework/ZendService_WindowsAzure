@@ -8,10 +8,10 @@
  * @package   Zend_Service
  */
 
-namespace ZendTest\Service\WindowsAzure\Credentials;
+namespace ZendServiceTest\WindowsAzure\Credentials;
 
-use Zend\Service\WindowsAzure\Credentials\AbstractCredentials;
-use Zend\Service\WindowsAzure\Credentials\SharedKeyLite;
+use ZendService\WindowsAzure\Credentials\AbstractCredentials;
+use ZendService\WindowsAzure\Credentials\SharedKeyLite;
 
 /**
  * @category   Zend

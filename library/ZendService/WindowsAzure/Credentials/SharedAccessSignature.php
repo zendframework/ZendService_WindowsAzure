@@ -8,11 +8,11 @@
  * @package   Zend_Service
  */
 
-namespace Zend\Service\WindowsAzure\Credentials;
+namespace ZendService\WindowsAzure\Credentials;
 
 use Zend\Http\Request;
-use Zend\Service\WindowsAzure\Exception\DomainException;
-use Zend\Service\WindowsAzure\Storage;
+use ZendService\WindowsAzure\Exception\DomainException;
+use ZendService\WindowsAzure\Storage;
 
 /**
  * @category   Zend

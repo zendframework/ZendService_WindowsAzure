@@ -8,7 +8,7 @@
  * @package   Zend_Service
  */
 
-namespace ZendTest\Service\WindowsAzure;
+namespace ZendServiceTest\WindowsAzure;
 
 /**
  * @category   Zend

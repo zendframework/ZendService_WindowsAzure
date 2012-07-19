@@ -8,11 +8,11 @@
  * @package   Zend_Service
  */
 
-namespace ZendTest\Service\WindowsAzure;
+namespace ZendServiceTest\WindowsAzure;
 
-use Zend\Service\WindowsAzure\Credentials\SharedAccessSignature;
-use Zend\Service\WindowsAzure\RetryPolicy\AbstractRetryPolicy;
-use Zend\Service\WindowsAzure\Storage\Blob\Blob;
+use ZendService\WindowsAzure\Credentials\SharedAccessSignature;
+use ZendService\WindowsAzure\RetryPolicy\AbstractRetryPolicy;
+use ZendService\WindowsAzure\Storage\Blob\Blob;
 
 /**
  * @category   Zend

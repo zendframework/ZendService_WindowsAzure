@@ -8,12 +8,12 @@
  * @package   Zend_Service
  */
 
-namespace Zend\Service\WindowsAzure\Storage;
+namespace ZendService\WindowsAzure\Storage;
 
 use Zend\Http\Request;
 use Zend\Http\Response;
-use Zend\Service\WindowsAzure\Credentials;
-use Zend\Service\WindowsAzure\Exception\RuntimeException;
+use ZendService\WindowsAzure\Credentials;
+use ZendService\WindowsAzure\Exception\RuntimeException;
 
 /**
  * @category   Zend

@@ -8,10 +8,10 @@
  * @package   Zend_Service
  */
 
-namespace Zend\Service\WindowsAzure\Storage;
+namespace ZendService\WindowsAzure\Storage;
 
-use Zend\Service\WindowsAzure\Exception\RuntimeException;
-use Zend\Service\WindowsAzure\Exception\UnknownPropertyException;
+use ZendService\WindowsAzure\Exception\RuntimeException;
+use ZendService\WindowsAzure\Exception\UnknownPropertyException;
 
 /**
  * @category                                   Zend
