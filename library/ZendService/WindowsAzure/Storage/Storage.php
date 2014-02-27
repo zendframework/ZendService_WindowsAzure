@@ -17,6 +17,7 @@ use ZendService\WindowsAzure\Credentials;
 use ZendService\WindowsAzure\Exception\DomainException;
 use ZendService\WindowsAzure\RetryPolicy;
 use Zend\Stdlib\ErrorHandler;
+use ZendXml\Security as XmlSecurity;
 
 /**
  * @category   Zend
@@ -375,7 +376,7 @@ class Storage
     protected function _parseResponse(Response $response)
     {
         ErrorHandler::start(E_WARNING);
-        $xml = simplexml_load_string($response->getBody());
+        $xml = XmlSecurity::scan($response->getBody());
         ErrorHandler::stop();
 
         if ($xml !== false) {
